@@ -12,4 +12,8 @@ layout: default
     {{ content }}
   </article>
 
+  {% if page.tags.size > 0 %}
+  <p><i class="fa fa-tags"></i>{{ page.tags | join: ", " }}</p>
+  {% endif %}
+
 </div>
