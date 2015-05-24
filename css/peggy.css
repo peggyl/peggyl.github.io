@@ -1,0 +1,36 @@
+/* Header */
+header {
+  text-align: center;
+}
+
+.contact li {
+  font-size: 1em;
+  padding: 0 0.5em;
+}
+
+ul, li {
+  list-style: none;
+  display: inline;
+}
+
+.construction {
+  display: inline;
+  border-bottom: 1px dotted red;
+}
+
+/* Posts */
+.posts h4 {
+  margin: 1em 0;
+}
+
+.post-title {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-top: 1em;
+    margin-bottom: 0
+}
+
+.post-date {
+    font-size: 1.2em;
+    padding: 0 0;
+}
